@@ -16,6 +16,9 @@ All configuration steps can be done either using SAP BTP Cockpit or the Cloud Fo
 
 ## Procedures
 
+> ### Note:  
+> For shipping logs/metrics via Cloud Foundry, the service instance must have the [`ingest.enabled`](configuration-parameters-1830bca.md#loio1830bca1b060484e9cfabc0e62472e8e__section_o51_4bn_lzb) configuration parameter set to `true` (default).
+
 Shipping logs from applications deployed on SAP BTP Cloud Foundry can be configured using one of the below options:
 
 -   [Bind the Application to the Service Instance](ingest-from-cloud-foundry-runtime-f5a7c99.md#loiof5a7c993743c4ee79722479371b90b37__bind_the_application), optionally using [Share Service Instance Across Different Spaces](ingest-from-cloud-foundry-runtime-f5a7c99.md#loiof5a7c993743c4ee79722479371b90b37__share_service_instance_across_different_spaces) to consolidate observability data across spaces within one organization.

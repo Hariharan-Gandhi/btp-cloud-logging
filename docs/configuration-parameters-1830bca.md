@@ -365,6 +365,29 @@ Description
 <tr>
 <td valign="top">
 
+enabled
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Boolean
+
+</td>
+<td valign="top">
+
+Enables ingestion over the `ingest-` and `ingest-mtls-` endpoint. This includes log and metric ingestion from Cloud Foundry. Defaults to `true`.
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 max\_instances
 
 </td>
@@ -721,7 +744,9 @@ The following snippet shows a sample payload that could be used for a `standard`
 >   },
 >   "feature_flags": [],
 >   "ingest": {
->     "max_instances": 10
+>     "enabled": true,
+>     "max_instances": 10,
+>     "min_instances": 3
 >   },
 >   "retention_period": 14
 > }
