@@ -2,7 +2,7 @@
 
 # Backup and Restore Custom Contents
 
-SAP Cloud Logging service automatically creates a backup of selected instance-related contents (please see support list below). Backed up objects can be restored, for example, after an accidental  deletion.
+SAP Cloud Logging service automatically creates a backup of selected instance-related content (see the support list below). You can restore backed-up objects after an accidental deletion.
 
 <a name="loio5b9bc66e65be442489f30931b131d1f6__section_wfj_334_xcc"/>
 
