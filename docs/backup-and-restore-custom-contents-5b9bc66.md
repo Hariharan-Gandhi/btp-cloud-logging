@@ -10,7 +10,7 @@ SAP Cloud Logging service automatically creates a backup of selected instance-re
 
 > ### Note
 >
-> Only a subset of all contents is backed up. Take own measures for other contents. 
+> Only a subset of all contents is backed up. Take your own measures for other contents. 
 >
 > Contents not mentioned in the below list are not backed up e.g., alerts and related contents, index-templates etc.
 
